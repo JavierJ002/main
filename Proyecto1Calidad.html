@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nosotros</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: #080d28;
+      }
+
+      .titulo {
+        color: #0088a9;
+        font-size: 28px;
+      }
+
+      li,
+      a {
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 5%;
+      }
+
+      .linksdelnav li {
+        display: inline-block;
+        padding: 0px 7px;
+        background-color: #080d28;
+        font-weight: 200px;
+      }
+
+      .linksdelnav li a {
+        transition: all 0.3s ease 0s;
+      }
+      .linksdelnav li a:hover {
+        color: #0088a9;
+      }
+      .Presentacion h1 {
+        color: #09bce8;
+        font-size: 40px;
+        margin: 20px;
+        padding-left: 10px;
+      }
+
+      .Presentacion p {
+        color: #82dbf1;
+        font-size: 28px;
+        margin-left: 33px;
+      }
+      .contenedor {
+        margin-top: 70px;
+        margin-left: 50px;
+        height: 300px;
+        width: 1800px;
+        background-color: #1a9edf;
+        position: relative;
+      }
+
+      .imgcreador {
+        position: absolute;
+        margin-top: 10px;
+
+        left: 30px;
+      }
+
+      .infoCreador h2 {
+        font-size: 26px;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 320px;
+        background-color: #1a9edf;
+      }
+      .infoCreador p {
+        font-size: 20px;
+        position: absolute;
+        text-align: justify;
+        margin-top: 70px;
+        margin-left: 330px;
+        background-color: #1a9edf;
+      }
+      .infopagina {
+        margin-top: 20px;
+        margin-left: 30px;
+        background-color: #1a9edf;
+      }
+      .infopagina h1 {
+        margin-top: 40px;
+        padding-top: 20px;
+        margin-left: 800px;
+        background-color: #1a9edf;
+        position: relative;
+        font-size: 28px;
+      }
+      .infopagina ul,
+      li {
+        margin-top: 10px;
+        margin-left: 150px;
+        display: inline-block;
+        font-size: 23px;
+        position: relative;
+        background-color: #1a9edf;
+        font-weight: bold;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="titulo">
+        <h1>Proyecto N°1</h1>
+      </div>
+      <nav>
+        <ul class="linksdelnav">
+          <li><a href="#">Página Principal</a></li>
+          <li><a href="#">Formulario de Contacto</a></li>
+          <li><a href="#">Carrusel de Imágenes</a></li>
+          <li><a href="#">Acerca de Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="Presentacion">
+      <h1>¿Porqué creamos está página?</h1>
+      <p>
+        El motivo de la elaboración de está página web es aprender a usar las
+        funciones básicas de GitHub, la cúal nos permite el manejo de archivos y
+        control de calidad
+      </p>
+    </section>
+    <section class="contenedor">
+      <div class="imgcreador">
+        <img src="imagenes\oscar.png" height="275px" width="250px" />
+      </div>
+      <div class="infoCreador">
+        <h2>Oscar Aranda</h2>
+        <p>
+          Oscar Aranda estudiante de tercercer año de la carrera Ingenieria de
+          Software, Le gusta jugar videojuegos y tiene 20 años.
+        </p>
+      </div>
+    </section>
+    <section class="contenedor">
+      <div class="imgcreador">
+        <img src="imagenes\angel.png" height="275px" width="250px" />
+      </div>
+      <div class="infoCreador">
+        <h2>Ángel Hernández</h2>
+        <p>
+          Estudiante de tercer año de la carrera ingeniería de software, le
+          gusta la tecnología, jugar videojuegos y le gustan los deportes como
+          el futbol y basquetbol, tiene 21 años.
+        </p>
+      </div>
+    </section>
+    <section class="contenedor">
+      <div class="imgcreador">
+        <img src="imagenes\javier.jpeg" height="275px" width="250px" />
+      </div>
+      <div class="infoCreador">
+        <h2>Javier Jiménez</h2>
+        <p>
+          Estudiante de tercer año de la carrera ingeniería de software, sus
+          pasatiempos son: videojuegos, el futbol y todo lo que tenga que ver
+          con la tecnología.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="infopagina">
+        <h1>Correos:</h1>
+        <ul>
+          <li>javier.jimenez4@utp.ac.pa</li>
+          <li>oscar.aranda@utp.ac.pa</li>
+          <li>angel.hernandez@utp.ac.pa</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
