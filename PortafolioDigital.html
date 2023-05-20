@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portafolio Digital</title>
+    <script>
+      function redireccionar() {
+        var integrante = document.getElementById("Integrantes").value;
+        if (integrante !== "") {
+          window.location.href = integrante;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Portafolio Digital</h1>
+    <label for="Integrantes">Selecciona un Integrante: </label>
+    <select id="Integrantes" onchange="redireccionar()">
+      <option value="">Seleccione un Integrante</option>
+      <option value="Oscar.html">Oscar Aranda</option>
+      <option value="Angel.html">Ángel Hernández</option>
+      <option value="Javier.html">Javier Jiménez</option>
+    </select>
+  </body>
+</html>
