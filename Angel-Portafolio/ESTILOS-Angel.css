@@ -9,7 +9,7 @@ body{font-family: 'Montserrat', sans-serif;}
     background: whitesmoke;
     margin: 50px auto;
     padding: 30px;
-    color: #c227e1;
+    background: green;
 }
 
 .photo {
@@ -32,7 +32,7 @@ body{font-family: 'Montserrat', sans-serif;}
 }
 
 .contact-details {
-    background: #c227e1;
+    background: green;
     color: white;
     text-align: center;
     margin: auto;
